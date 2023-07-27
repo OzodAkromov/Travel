@@ -188,11 +188,17 @@ a {
 .advice .titles .btn {
     padding: 12px 10px;
     color: #7B61FF;
-    background: #7b61ff61;
+    background: #F6F4FF;
     border: 0;
     outline: 0;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.advice .titles .btn:hover {
+    background: #7B61FF;
+    color: #ffffff;
 }
 
 .advice .btn i {
@@ -237,25 +243,48 @@ a {
     margin-top: 88px;
     color: #979797;
     font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .advice .left .i-text {
     padding-left: 20px;
     margin-top: -20px;
     font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.advice .left .i-text:hover,
+.advice .right .i-text:hover {
+    color: #7B61FF;
 }
 
 .advice .left .icon {
     padding-left: 80px;
-    margin-top: -20px;
+    margin-top: -20.5px;
     color: #979797;
     font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.advice .left .icon:hover,
+.advice .right .icon:hover {
+    color: #7B61FF;
 }
 
 .advice .left .icon p {
     padding-left: 20px;
     margin-top: -20px;
     font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.advice .left .icon p:hover,
+.advice .right .icon p:hover {
+    color: #7B61FF;
 }
 
 .advice .left .icon-2 {
@@ -263,6 +292,8 @@ a {
     margin-top: -20px;
     color: #979797;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .advice .left .icon-2 p {
@@ -270,6 +301,8 @@ a {
     margin-top: -20px;
     font-size: 12px;
     font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
 }  
 
 .advice .right h2 {
@@ -292,12 +325,21 @@ a {
     margin-top: 118px;
     color: #979797;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.advice .right .fa-calendar-alt:hover,
+.advice .left .fa-calendar-alt:hover {
+    color: #7B61FF;
 }
 
 .advice .right .i-text {
     padding-left: 20px;
     margin-top: -76px;
     font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .advice .right .icon {
@@ -305,6 +347,8 @@ a {
     margin-top: -21px;
     color: #979797;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .advice .right .icon p {
@@ -318,13 +362,27 @@ a {
     margin-top: -20px;
     color: #979797;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.advice .right .icon-2:hover,
+.advice .left .icon-2:hover {
+    color: #7B61FF;
 }
 
 .advice .right .icon-2 p {
     margin-left: 21px;
     margin-top: -77px;
     font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
 }   
+
+.advice .right .icon-2 p:hover,
+.advice .left .icon-2 p:hover {
+    color: #7B61FF;
+}
 
 /* popular */
 .popular .site-title {
@@ -343,6 +401,7 @@ a {
 .popular .cards img {
     margin-top: 64px;
     border-radius: 24px;
+    cursor: pointer;
 }
 
 .popular .cards .card-title {
@@ -350,6 +409,8 @@ a {
     color: #161414;
     font-family: 'Poppins', sans-serif;
     margin-top: 8px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .popular .cards .card-title-2 {
@@ -358,6 +419,13 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     margin-top: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.popular .cards .card-title:hover,
+.popular .cards .card-title-2:hover {
+    color: #7B61FF;
 }
 
 /* advice */
@@ -379,12 +447,18 @@ a {
 .media .btn {
     padding: 12px 10px;
     color: #7B61FF;
-    background: #7b61ff61;
+    background: #F6F4FF;
     border: 0;
     outline: 0;
     border-radius: 8px;
     cursor: pointer;
     margin-top: 140px;
+    transition: 0.3s;
+}
+
+.media .btn:hover {
+    background: #7B61FF;
+    color: #ffffff;
 }
 
 .media .btn i {
@@ -402,6 +476,12 @@ a {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.media .media-card h3:hover {
+    color: #7B61FF;
 }
 
 .media .media-card i {
@@ -414,6 +494,12 @@ a {
     margin-top: -18px;
     color: #979797;
     font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.media .media-card p:hover {
+    color: #7B61FF;
 }
 
 .media .media-card .fa-star {
@@ -440,11 +526,17 @@ a {
 .activities .top .btn {
     padding: 12px 10px;
     color: #7B61FF;
-    background: #7b61ff61;
+    background: #F6F4FF;
     border: 0;
     outline: 0;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.activities .top .btn:hover {
+    background: #7B61FF;
+    color: #ffffff;
 }
 
 .activities .top .btn i {
@@ -468,6 +560,15 @@ a {
     object-fit: cover;
     border-radius: 24px;
     padding-bottom: 16px;
+}
+
+.activities .wrapper .card p {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.activities .container .card p:hover {
+    color: #7B61FF;
 }
 
 /* About */
@@ -506,6 +607,12 @@ a {
     outline: 0;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.about .container .left button:hover {
+    background: #7B61FF;
+    color: #ffffff;
 }
 
 .about .container .left button i {
@@ -555,6 +662,14 @@ a {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer .about h3:hover,
+.footer .company h3:hover,
+.footer .support h3:hover {
+    color: #7B61FF;
 }
 
 .footer .about p {
@@ -564,12 +679,23 @@ a {
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
 }
+
+.footer .about p:hover,
+.footer .company p:hover,
+.footer .support p:hover {
+    color: #7B61FF;
+}
+
 
 .footer .company h3 {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    cursor:  pointer;
+    transition: 0.2s;
 }
 
 .footer .company p {
@@ -580,28 +706,40 @@ a {
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    transition: 0.2s;
 }
 
 .footer .support h3 {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    cursor:  pointer;
+    transition: 0.2s;
 }
 
 .footer .support p {
-    cursor: pointer;
     margin-top: 20px;
     line-height: 12px;
     color: #979797;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    cursor:  pointer;
+    transition: 0.2s;
 }
 
 .footer .news h2 {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    cursor:  pointer;
+    transition: 0.2s;
+}
+
+.footer .news h2:hover,
+.footer .news p:hover,
+.footer .news h3:hover {
+    color: #7B61FF;
 }
 
 .footer .news img {
@@ -615,12 +753,16 @@ a {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     color: #979797;
+    cursor:  pointer;
+    transition: 0.2s;
 }
 
 .footer .news h3 {
     padding-left: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    cursor:  pointer;
+    transition: 0.2s;
 }
 
 .footer .news .border {
