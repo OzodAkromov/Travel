@@ -296,20 +296,20 @@ a {
 
 .advice .right .i-text {
     padding-left: 20px;
-    margin-top: -78px;
+    margin-top: -76px;
     font-size: 12px;
 }
 
 .advice .right .icon {
     padding-left: 80px;
-    margin-top: -20px;
+    margin-top: -21px;
     color: #979797;
     font-size: 15px;
 }
 
 .advice .right .icon p {
     margin-left: 20px;
-    margin-top: -75px;
+    margin-top: -76px;
     font-size: 12px;
 }
 
@@ -322,7 +322,7 @@ a {
 
 .advice .right .icon-2 p {
     margin-left: 21px;
-    margin-top: -78px;
+    margin-top: -77px;
     font-size: 12px;
 }   
 
@@ -835,7 +835,7 @@ a {
     }
 
     .advice .container .right .fa-calendar-alt {
-        margin-top: 75px;
+        margin-top: 0;
     }
 
     
