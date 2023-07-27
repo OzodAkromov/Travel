@@ -912,6 +912,10 @@ a {
     .advice .container .left .fa-calendar-alt {
         margin-top: 0;
     }
+
+    .home {
+        width: 200%;
+    }
 }
 
 @media(max-width: 430px) {
@@ -981,6 +985,18 @@ a {
         padding: 10px 5px;
     }
 
+}
+
+@media(max-width: 290px) {
+    .home {
+        width: 245%;
+    }
+}
+
+@media(max-width: 240px) {
+    .home {
+        width: 250%;
+    }
 }
 
 
