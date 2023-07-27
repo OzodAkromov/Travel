@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive</title>
+</head>
+
+<body>
+
+    <!-- Home -->
+    <header class="home">
+        <div class="container">
+            <!-- navbar  -->
+            <nav class="navbar">
+                <!-- logo  -->
+                <div class="logo">
+                    <img src="./images/logo.svg" alt="logo">
+                </div>
+
+                <!-- menu -->
+                <ul class="menu">
+                    <li><a href="#" class="link">home</a></li>
+                    <li><a href="#" class="link">hotels</a></li>
+                    <li><a href="#" class="link">restaurants</a></li>
+                    <li><a href="#" class="link">tours</a></li>
+                    <li><a href="#" class="link">destinations</a></li>
+                    <li><a href="#" class="link">activities</a></li>
+                    <li><a href="#" class="link">contacts</a></li>
+                </ul>
+
+                <!-- profile -->
+                <div class="profile">
+                    <div class="name">
+                        <p>Holla,</p>
+                        <h3>Ales Nesetril</h3>
+                    </div>
+                    <div class="p-image">
+                        <img src="./images/avatar.svg" alt="p-image">
+                    </div>
+                </div>
+
+
+                <!-- mobile-menu -->
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+
+
+            <!-- content -->
+            <div class="content">
+                <h1>Discover the most engaging places!</h1>
+                <button class="btn-globe">
+                    <i class="fas fa-globe"></i>
+                    Discover on 3D Globe
+                </button>
+
+                <div class="search-filter">
+                    <!-- item -->
+                    <div class="item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="text">
+                            <p>Location</p>
+                            <h3>Explore nearby destinations</h3>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="item">
+                        <div class="icon"><i class="fas fa-biking"></i></div>
+                        <div class="text">
+                            <p>Activity</p>
+                            <h3>All Activities</h3>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="item">
+                        <div class="icon"><i class="fas fa-calendar-day"></i></div>
+                        <div class="text">
+                            <p>When</p>
+                            <h3>Choose a Date</h3>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="item">
+                        <div class="icon"><i class="fas fa-user-friends"></i></div>
+                        <div class="text">
+                            <p>Guests</p>
+                            <h3>1 guest</h3>
+                        </div>
+                    </div>
+
+                    <!-- search-btn -->
+                    <div class="search-btn">
+                        <button class="btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- popular -->
+
+    <section class="popular">
+        <div class="container">
+            <h1 class="site-title">Popular Destinations</h1>
+            <div class="wrapper">
+                <!-- card -->
+                <div class="cards">
+                    <img src="./images/img.1.svg" alt="#">
+                    <h3 class="card-title">Big Sur</h3>
+                    <h3 class="card-title-2">California, USA</h3>
+                </div>
+                <!-- card -->
+                <div class="cards">
+                    <img src="./images/img.2.svg" alt="#">
+                    <h3 class="card-title">Prescott</h3>
+                    <h3 class="card-title-2">Arizona, USA</h3>
+                </div>
+                <!-- card -->
+                <div class="cards">
+                    <img src="./images/img.3.svg" alt="#">
+                    <h3 class="card-title">Fort Mayers</h3>
+                    <h3 class="card-title-2">Florida, USA</h3>
+                </div>
+                <!-- card -->
+                <div class="cards">
+                    <img src="./images/img.4.svg" alt="#">
+                    <h3 class="card-title">Tucson</h3>
+                    <h3 class="card-title-2">Arizona, USA</h3>
+                </div>
+                <!-- card -->
+                <div class="cards">
+                    <img src="./images/img.5.svg" alt="#">
+                    <h3 class="card-title">St. Joseph</h3>
+                    <h3 class="card-title-2">Michigan, USA</h3>
+                </div>
+                <!-- card -->
+                <div class="cards">
+                    <img src="./images/img.6.svg" alt="#">
+                    <h3 class="card-title">Madrid</h3>
+                    <h3 class="card-title-2">Spain</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- media -->
+
+    <section class="media">
+        <div class="container">
+            <div class="top">
+                <h1 class="media-title">Hotels and Restaurants</h1>
+                <button class="btn">
+                    View all
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <!-- wrapper -->
+            <div class="wrapper">
+                <!-- card -->
+                <div class="media-card">
+                    <img src="./images/media-img.1.svg" alt="#">
+                    <h3>Monastero Santa Rosa Hotel & Spa</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Salerno, Italy</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <!-- card -->
+                <div class="media-card">
+                    <img src="./images/media-img.2.svg" alt="#">
+                    <h3>Grand Hotel Tremezzo</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lake Como, Italy</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <!-- card -->
+                <div class="media-card">
+                    <img src="./images/media-img.3.svg" alt="#">
+                    <h3>The Oberoi Udaivilas, Udaipur</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Udaipur, India</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <!-- card -->
+                <div class="media-card">
+                    <img src="./images/media-img-4.svg" alt="#">
+                    <h3>AKA Beverly Hills</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Los Angeles, United States</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- advice -->
+    <div class="advice">
+        <div class="container">
+            <div class="titles">
+                <h1>Travel Tips and Advice</h1>
+                <button class="btn">
+                    View all
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="wrapper">
+
+                <!-- left -->
+                <div class="left">
+                    <div class="image-block">
+                        <img class="left-img" src="./images/advice-1.svg" alt="#">
+                    </div>
+                    <div class="text-content">
+                        <h2>East Village Ice Cream <br> Crawl</h2>
+                        <p>We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At
+                            each
+                            ice cream store we'll explore the story behind the business and see what makes the ice cream
+                            unique
+                            as you savor every…</p>
+                            <div class="icon-content">
+                                <i class="far fa-calendar-alt"></i>
+                                <p class="i-text">Today</p>
+                            </div>
+
+
+                        <div class="icon">
+                            <i class="far fa-user"></i>
+                            <p>Maria Philips</p>
+                        </div>
+                        <div class="icon-2">
+                            <i class="far fa-comment"></i>
+                            <p>2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right -->
+                <div class="right">
+                    <div class="image-block">
+                        <img class="right-img" src="./images/advice-2.svg" alt="#">
+                    </div>
+                    <div class="text-content">
+                        <h2>Brooklyn Bridge <br> cinematic photo walk</h2>
+                        <p>This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always
+                            open
+                            to
+                            capture clients at different locations upon request for an additional charge. </p>
+                        <i class="far fa-calendar-alt"></i>
+                        <p class="i-text">Today</p>
+                        <div class="icon">
+                            <i class="far fa-user"></i>
+                            <p>James Calzoni</p>
+                        </div>
+                        <div class="icon-2">
+                            <i class="far fa-comment"></i>
+                            <p>17</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Activities -->
+    <section class="activities">
+        <div class="container">
+            <!-- top -->
+            <div class="top">
+                <h1 class="site-title">Activities</h1>
+                <button class="btn">
+                    View all
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <!-- wrapper -->
+            <div class="wrapper">
+                <!-- card -->
+                <div class="card">
+                    <img src="./images/travel-1.svg" alt="#">
+                    <p>Sailing</p>
+                </div>
+                <!-- card -->
+                <div class="card">
+                    <img src="./images/travel-2.svg" alt="#">
+                    <p>Climbing</p>
+                </div>
+                <!-- card -->
+                <div class="card">
+                    <img src="./images/img.png" alt="#">
+                    <p>Skiing</p>
+                </div>
+                <!-- card -->
+                <div class="card">
+                    <img src="./images/travel-4.svg" alt="#">
+                    <p>Hiking</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container min">
+            <div class="left">
+                <h1 class="title">About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis
+                    tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit
+                    amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos.</p>
+                <button class="btn">
+                    Read more
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="right">
+                <img src="./images/img2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="./images/footer-logo.png" alt="#">
+                <p>We always make our customers happy by providing as many choises as possible</p>
+                <div class="icons">
+                    <img src="./images/facebook.svg" alt="#">
+                    <img src="./images/twitter.svg" alt="#">
+                    <img src="./images/instagram.svg" alt="#">
+                </div>
+            </div>
+
+            <!-- about -->
+            <ul class="about">
+                <h3>About</h3>
+                <p>About Us</p>
+                <p>Features</p>
+                <p>News</p>
+                <p>Menu</p>
+            </ul>
+
+            <!-- company -->
+            <ul class="company">
+                <h3>Company</h3>
+                <p>Why 2rism</p>
+                <p>Partner With Us</p>
+                <p>FAQ</p>
+                <p>Blog</p>
+            </ul>
+
+            <!-- support -->
+            <ul class="support">
+                <h3>Support</h3>
+                <p>Account</p>
+                <p>Support Center</p>
+                <p>Feedback</p>
+                <p>Contact Us</p>
+            </ul>
+
+            <!-- news -->
+            <ul class="news">
+                <h2>Subscribe on our destination review newsletters</h2>
+                <img src="./images/pochta.svg" alt="#">
+                <p>Your Email</p>
+                <h3>johndoe@gmail.com</h3>
+                <div class="border">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
